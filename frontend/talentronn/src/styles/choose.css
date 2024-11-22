@@ -1,0 +1,146 @@
+.main-container1{
+    padding: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 86px;
+    padding-bottom: 76px !important;
+    padding-right: 103px;
+    position: relative;
+    background-color: #FFFFFF;
+    font-family: Montserrat;   
+}
+.main-container12{
+    width: 100%;
+    height: auto;  
+}
+.xyz{
+    display: flex;
+    justify-content: center;
+    height: 420px;
+}
+.square-icon {
+    position: absolute;
+    top: -1px;
+    right: 65px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #006CBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .square-icon img{
+   width: 45px;
+   height: 45px;
+  }
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ .text1  .aa{
+    font-weight: 700;
+    font-size: 24px; 
+ }
+  .text1 p{
+    font-size: 14px;
+    margin: 0;
+  }
+.image111  {
+    position: relative;
+   width: 551px;
+   height: 367px;
+    margin-top: 35px;
+    border:3px solid #2F98E3;   
+}
+.im63 {   
+     position: absolute; 
+    bottom: -1%;
+    right: -9%;
+}
+.im64{
+    position: absolute;
+    top: 0;
+    right: -0;
+}
+.zxyz{
+    position: absolute;
+    right: 0;
+}
+.text-content{
+    margin: 0;
+}
+.textt{  
+    margin-top: 60px;
+    width: 543px;
+}
+.textt span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 60px;  
+}
+.textt p{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.xyz{
+    display: flex;
+    justify-content: center;
+    gap: 103px;
+}
+.imagee111{
+    display: none;
+}
+.den3{
+    display: none;
+}
+@media screen and (max-width:1200px){
+    .xyz{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        overflow-x: none;
+    }
+   .square-icon{
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    .image111{
+        display: none;
+    }
+    .den3 {
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .textt{
+        width: auto;
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width:1367px){
+.main-container12{
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media (max-width:400px){
+    
+    .den3 img{
+        width: 200px;
+
+    }
+}
+

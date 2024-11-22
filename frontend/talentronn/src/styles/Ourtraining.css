@@ -1,0 +1,152 @@
+.train21 {
+  width: 100%;
+  height: auto; 
+  background-color: #ebf0f5;
+  font-family: Montserrat;
+  padding-top: 40px;
+  padding-left: 83px;
+  padding-right: 83px;
+  padding-bottom: 67px;
+  overflow-x: scroll;
+}
+.shiv{
+  width: 1366px;
+}
+.train-text21 {
+  text-align: center;
+}
+.train-text21 p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.train-text21 span {
+  font-size: 24px;
+  font-weight: 700;
+}
+.smaller-box {
+  width: 125px;
+  height: 125px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  margin-top: 12px;
+}
+.imag {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 1;
+  top: -15px;
+}
+ 
+.dottline{
+  width: 90%;
+  border: 2px solid #333333;
+  margin-top: 28px;
+  margin-left: 5%;
+}
+.dottextt{
+display: flex;
+gap: 10px;
+position: relative;
+right: 31px;
+gap: 14px;
+}  
+
+
+
+
+
+
+
+.sm-dottext{
+margin-top: 22px;
+display: flex;
+flex-direction: column;
+width: 200px;
+text-align: center;
+justify-content:start;
+}
+.sm-dottext h2{
+font-size: 24px;
+font-weight: 600;
+
+}
+
+.box-text-mini{
+margin: 0;
+padding: o;
+font-size: 12px;
+font-weight: 400;
+}
+
+.smll-circle img{
+width: 12px;
+height: 12px;    
+margin: 0;
+padding: 0;
+
+}
+.sm-dottext img{
+position: relative;
+
+}
+
+.sm-dottext .main{
+font-size: 16px;
+font-weight: 500;
+margin-bottom: 5px;
+}
+.sm-dottext .box-testy{
+position: absolute;
+color: #FFFFFF;
+
+font-size: 12px;
+font-weight: 700;
+top: 51px;
+margin-left: 60px;
+
+
+}
+
+.inner-big-box{
+display: flex;
+margin-top: 48px;
+gap: 90px;
+}
+
+
+
+@media screen and (min-width: 1233px) {
+
+       
+   
+       .dottline {
+        width: 1082px;
+    }
+    .shiv{
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1367px) {
+  .shiv {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+  }
+}

@@ -1,0 +1,162 @@
+.cont {
+    width: 100%;
+    height: auto;
+    border-radius: 2px solid black;
+    font-family: Montserrat;
+    padding-bottom: 76px;
+}
+
+.text13 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.text13 span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text13 p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.xyz1 {
+    display: flex;
+    justify-content: center;
+    gap: 113px;
+    margin-top: 35px;
+}
+
+.texttt {
+    margin-top: 60px;
+}
+
+.image112 {
+    position: relative;
+}
+
+.image112 img {
+    width: 531px;
+    height: 361px;
+    border: 3px solid #2F98E3;
+}
+
+.g1656 {
+    width: 161px !important;
+    height: 80px !important;
+    position: absolute;
+    bottom: 2px;
+    left: -48px;
+    z-index: 1;
+    border: none !important;
+}
+
+.g165 img {
+    width: 161px;
+    height: 80px;
+}
+
+.texttt span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.texttt p {
+    font-weight: 16px;
+    font-weight: 500;
+
+}
+
+.texttt h {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.texttt {
+    width: 540px;
+    height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .cont {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .text13 {
+        margin-top: 10px;
+    }
+
+    .text13 span {
+        font-size: 20px;
+    }
+
+    .text13 p {
+        font-size: 12px;
+    }
+
+    .xyz1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .texttt {
+        margin: 0;
+
+        width: 41%;
+    }
+
+    .texttt p {
+        text-align: start;
+        font-size: 14px;
+    }
+
+    .image112 {
+        margin: 20px 0;
+        position: relative;
+    }
+
+    .image112 img {
+        width: 90%;
+        height: auto;
+    }
+
+    .project-box {
+        width: 140px;
+        height: 70px;
+        left: 0;
+        bottom: 0;
+        box-shadow: none;
+        transform: translate(0, 0);
+    }
+
+    .icon-circle {
+        width: 35px;
+        height: 35px;
+        margin: 0 10px;
+    }
+
+    .icon-circle img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .text-content h3 {
+        font-size: 18px;
+    }
+
+    .text-content p {
+        font-size: 10px;
+    }
+
+    .g1656 {
+
+        left: -15px;
+    }
+}

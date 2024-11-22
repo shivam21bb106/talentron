@@ -1,0 +1,230 @@
+
+.footer {
+  background-color:#333333;  
+  width: 100%;
+  height:auto;
+  width: auto;
+  color: #FFFAFA;
+  display: flex;
+  flex-direction: column; 
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  margin-right: 0px;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-between; 
+  box-sizing: border-box;
+  margin-left: 83px;
+  margin-top: 65px;
+}
+.footer1 .foot-text {
+  flex: 1;
+  min-width: 150px; 
+  margin: 10px;
+  font-size: 14px;
+}
+.footer1 .foot-text1 {
+  flex: 2;
+  min-width: 200px; 
+  margin: 10px;
+}
+.bluec{
+  margin:0px;
+  margin-top: 5px;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  background-color: #006CBB;
+}
+ .log{
+  display: flex;
+  gap: 5px;
+  font-size: 20px;
+  font-weight: 600;
+ }
+.follow1{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.straightline {  
+  width: 100%;
+  border: 1px solid #FFFFFF;
+ 
+}
+.follow {
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+align-items: center;
+margin-left: 83px;   
+margin-right: 83px;  
+margin-top: 28.73px; 
+margin-bottom: 38.22px;
+}
+.follow1 {
+display: flex;
+justify-content: space-between; 
+align-items: center;
+width: 100%;
+}
+.follow-start {
+display: flex;
+align-items: center;
+}
+.follow-start div {
+margin-left: 8px; 
+}
+.follow-center {
+text-align: center;
+}
+.follow-right {
+margin-right: 0; 
+margin-right: 0;
+  text-decoration: underline;
+}
+.follow1 img {
+  height: 25px; 
+  width: 25px; 
+}
+.phone{
+  display: flex;
+  align-items: center;
+}
+.straightlinecontainer{
+  width: 100%;
+  position: relative; 
+  padding-left: 83px;
+  padding-right: 83px;
+  margin-top: 25px !important;
+}
+.upperarrow{
+  position: absolute;
+  right: 70px;
+  top:-29px;
+}
+.dd{
+  width: 25px;
+  height: 25px;
+}
+@media screen and (min-width: 1700px) {
+  .footer{
+    width: auto;
+    height: 100%;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .footer1 {
+    margin-left: 120px;
+    margin-right: 120px;
+    justify-content: space-between;
+  }
+  .foot-text, .foot-text1 {
+    margin: 20px;
+    font-size: 20px; 
+  }
+  .foot-text p{
+    font-size: 20px;
+  }
+  .straightline {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .follow {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .follow1 {
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .follow-center {
+    font-size: 18px;
+  }
+  .upperarrow {
+    right: 70px;
+    top: -30px;
+  }
+  .dd img {
+    width: 30px;
+    height: 30px;
+  }
+  footer {
+    font-size: 16px; 
+  }
+}
+@media screen and (max-width: 990px) {
+  .footer {
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+    width: 100%; 
+    min-width: 100%;
+    margin-bottom: 0px;
+  }
+  .footer1 {
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0;
+    width: 100%;
+  }
+  .foot-text1 {
+    margin-bottom: 20px; 
+    width: 100%; 
+  }
+  .foot-text1 p {
+    margin: 10px 0; 
+    line-height: 1.5; 
+  }
+  .log {
+    font-size: 18px; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .blue {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px; 
+  }
+  .foot-text1 img {
+    margin-right: 10px; 
+    vertical-align: middle; 
+  }
+  .foot-text {
+    display: none;
+  }
+ .upperarrow {
+    display: none;
+  }
+  .straightline {
+    width: 100%; 
+    margin: 20px auto; 
+  }
+  .follow1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .follow-start {
+    margin-right: 10px; 
+  }
+  .dd img {
+    width: 25px; 
+    height: 25px;
+    margin: 0 10px;
+  }
+  .follow-center {
+    margin: 20px 0; 
+  }
+  .follow-right {
+    margin-top: 10px;
+    text-align: center;
+  }
+}

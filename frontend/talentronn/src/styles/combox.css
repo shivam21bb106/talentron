@@ -1,0 +1,87 @@
+.shiv-container{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    position: relative;
+    margin-top:-61px;
+    margin-bottom: 28.71px;   
+}
+.boxx{
+    width: 1200px;
+height: 171.29px;
+border-radius: 10px;
+margin-left: 83px;
+margin-right: 83px;
+background-color: #F6FBFF;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap:16.4px;
+ padding-left: 27.07px;
+ padding-right: 31.06px;
+ font-family: Montserrat;
+font-size: 14px;
+font-weight: 500;
+line-height: 17.07px;
+text-align: center;
+} 
+.sm-boxx {
+    width: 215.54px;
+    height: 124.07px;
+    border-radius: 8px;
+     border: 1px solid #006CBB80;
+     display: flex;
+     flex-direction: column;
+     gap:6.48px;
+}
+.image1 {
+    width: 48.12px;
+    height: 44.44px;
+    margin-top: 27.78px;
+    margin-right: 84.21px;
+    margin-left: 83.21px;
+    margin-bottom: 6.48px;
+}
+.image2 {
+    width: 58.85px;
+    height:52.78px;
+    margin-top: 24.07px;
+    margin-left: 79.2px;
+    margin-right:78.2px ;
+    margin-bottom: 1.85px;
+}
+ .image3{
+    width: 30.09px;
+    height: 40.44px;
+    margin-top: 40px;
+    margin-left: 91.23px;
+    margin-right: 90.23px;  
+ }
+.image3 span{
+    margin-bottom: -60px;
+}
+ .image4 {
+    width: 52.13px;
+    height: 48.15px;
+    margin-top: 27.28px;
+    margin-left: 79.2px;
+    margin-right: 84.21px;
+    margin-bottom: 2.78px;
+ }
+ .image5{
+    width: 45.11px;
+    height: 41.67px;
+    margin-top: 25.93px;
+    margin-right: 85.21px;
+    margin-left: 85.21px;
+    margin-bottom: 11.11px;
+ }
+.zx span{
+    margin-bottom: 15px;
+} 
+ @media screen and (min-width: 1367px) {
+    .boxx{
+        margin-left: auto;
+        margin-right: auto;
+    }
+ }

@@ -1,0 +1,87 @@
+.talent11{
+    width: 100%;
+    height: 420px;
+    font-family: Montserrat;
+    background-color: #333333;
+    overflow-x: scroll;
+    padding-top:43px ;
+    margin: 0;
+    padding-left: 83px;
+   
+   padding-right:83px ;
+   padding-bottom: 70px;
+}
+.text233{
+   text-align: center;    
+}
+.text233 span{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.sm-bbox p {
+    width: 125px; 
+    white-space: nowrap; 
+  } 
+.text233 p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.bbox{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 22px;
+    align-items: center;
+}
+.sm-bbox{
+    width: 125px;
+    height: 125px;
+    color: #F6FBFF;
+}
+.sm-bbox img{
+    width: 40px;   
+}
+.sm-bbox span{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;   
+}
+.sm-bbox p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.btext{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sm-text{
+    width: 125px;
+    height: 125px;
+    background-color: #F6FBFF;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 25px;
+}
+.main-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.in{
+    width: 125px;
+    height: 125px;
+    background-color: #F6FBFF;
+}
+
+
+    
+   
+
+    

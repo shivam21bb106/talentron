@@ -1,0 +1,357 @@
+.kkimage img {
+  width: 100%;
+  height: 280px;
+}
+
+.kkimage {
+  position: relative;
+}
+
+.upper-text1x {
+  width: 434px;
+  height: auto;
+  font-family: Montserrat;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.call-text {
+  width: 130px;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.frame4 img {
+  width: 17px !important;
+  height: 10px !important;
+}
+
+.thriving {
+  width: 100%;
+  height: auto;
+  min-height: 560px;
+  font-family: Montserrat;
+  padding-left: 83px;
+  padding-right: 83px;
+  padding-top: 40px;
+  padding-bottom: 73px;
+}
+
+.thriving-text {
+  text-align: center;
+}
+
+.thriving-text span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.thriving-text p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.thriving-main {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.thriving-main-text {
+  margin-top: 79px;
+}
+
+.thriving-main-text span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.thriving-main-text {
+  width: 608px;
+  height: auto;
+}
+
+.thriving-main-text p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 13px;
+}
+
+.thriving-main-photo {
+  margin-top: 35px;
+  margin-left: 28px;
+  width: 531px;
+  height: 361px;
+}
+
+.maiinbox {
+  width: 185px;
+  height: 120px;
+  background-color: #F6FBFF;
+}
+
+.pro-maiinbox {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.maiinbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.maiinbox span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.portfolio {
+  width: 100%;
+  height: auto;
+  min-height: 513px;
+  background-color: #333333;
+  font-family: Montserrat;
+  color: #FFFFFF;
+  padding-top: 76px;
+  padding-bottom: 76px;
+  padding-left: 88px;
+  padding-right: 101px;
+}
+
+.main-portfolio {
+  display: flex;
+  gap: 103px;
+  justify-content: center;
+}
+
+.portfolio-text {
+  width: 543px;
+}
+
+.portfolio-text span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.portfolio-text img {
+  width: 15px;
+  height: 15px;
+}
+
+.portfolio-image1 img {
+  width: 531px;
+  height: 367px;
+}
+
+.internship-box {
+  background-color: #e9f2f8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 200px;
+  min-height: 200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow-y: scroll;
+}
+
+.internship-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.internship-text {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.internship-text strong {
+  font-weight: bold;
+}
+
+.highlighted-text {
+  font-weight: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.internship-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.left-icon {
+  margin-right: 39px;
+  margin-left: 30px;
+}
+
+.right-icon {
+  margin-left: 38px;
+  margin-right: 30px;
+}
+
+@media (max-width:1200px) {
+  .portfolio {
+    padding: 20px;
+  }
+
+  .main-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .thriving-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thriving-main-text {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:700px) {
+  .portfolio-image1 img {
+    width: 250px;
+    height: auto;
+    margin: 0px;
+  }
+
+  .thriving-main-text {
+    width: auto;
+  }
+
+  .thriving-main-photo img {
+    width: 350px;
+    height: auto;
+  }
+
+  .portfolio-text {
+    width: auto;
+    margin: 0px;
+  }
+}
+
+@media (max-width:500px) {
+  .thriving-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thriving-main-photo img {
+    width: 200px;
+    height: auto;
+  }
+
+  .thriving {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width:638px) {
+  .register-button {
+    width: auto;
+  }
+
+  .thriving-main-photo {
+    width: auto;
+    height: auto;
+  }
+
+  .thriving-main-photo img {
+    width: 150px;
+    height: auto;
+  }
+}
+
+@media (max-width:750px) {
+  .upper-text1x {
+    left: 20%;
+  }
+}
+
+@media (max-width:515px) {
+  .upper-text1x {
+    left: 10%;
+  }
+}
+
+@media (max-width:462px) {
+  .upper-text1x {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8px;
+    width: auto;
+  }
+
+  .call-text-2-x {
+    font-size: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: none;
+  }
+}
+
+@media (max-width:900px) {
+  .internship-icon {
+    display: none;
+    width: 0px !important;
+    height: 0px !important;
+  }
+
+  .internship-text {
+    font-size: 16px !important;
+  }
+
+  .blue-box-main span {
+    overflow: hidden;
+  }
+
+  .blue-box-main p {
+    overflow: hidden;
+  }
+
+  .inner-blue-main1,
+  .inner-blue-main2,
+  .inner-blue-main3,
+  .inner-blue-main4 {
+    overflow: hidden;
+  }
+}

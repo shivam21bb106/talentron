@@ -1,0 +1,29 @@
+.faaq {
+    text-align: center;
+    font-family: Montserrat;
+    margin-top: 40px;
+}
+.faaq span {
+    font-size: 24px;
+    font-weight: 700;
+}
+.faaq p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 68px;
+}
+@media   (min-width:1367px) {
+    .accordion accordion-flush{
+        display: flex;
+        justify-content: center;
+    }   
+}
+@media   (max-width:580px){
+    .container{
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+

@@ -1,0 +1,394 @@
+
+      html {
+        font-size: 16px; 
+      }
+      .pro-img {
+    position: relative; 
+    margin: 0;
+    padding: 0;
+}
+.pro-img img {
+    width: 100%;
+    height: 280px;
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+}
+.pro-main{
+  position: relative;
+  margin-bottom: 0px !important;
+}
+.upper-text11{
+  width: auto;
+  height: auto;
+  font-family: Montserrat;
+  text-align: center;
+  position: absolute;
+  top: 14% !important;
+  left: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.call-text11{
+  width: 130px;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 15px 15px 15px 15px;
+  display: flex;
+  gap: 5px;
+}
+.frame4 img{
+  width: 17px !important;
+  height: 10px !important;
+}
+.pro-img1{
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #006CBB; 
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute; 
+    top:0;
+    top: 89%;
+    right: 20px;
+    z-index: 1;
+}
+.pro-img1 img {   
+    width: 45px;
+    height: 45px;
+}
+.pro-sponsors{
+    width: 100%;
+    height: auto;
+    min-height: 180px;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.pro-sponsors-main{
+    width: 1100px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.talentron-container {
+  width: 100%;
+  font-family: Montserrat;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.talentron-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.talentron-title {
+  font-size: 28px;
+  color: #333;
+}
+.talentron-subtitle {
+  font-size: 16px;
+  color: #888;
+}
+.talentron-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.talentron-image-wrapper {
+  position: relative;
+  width: 50%;
+}
+.talentron-main-image {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #e0e0e0;
+}
+.talentron-badge {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid #2F98E3;
+}
+.joining-badge {
+  width: 120px;
+  height: 118px;
+  top: 10px;
+  right: 10px;
+  border: 2px solid #006CBB;
+}
+.enrolled-badge {
+  bottom: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  background-color: #006CBB;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.talentron-badge-icon {
+  width: 54px;
+  height: 59px;
+  margin-right: 10px;
+}
+.talentron-enrolled-count {
+  font-size: 24px;
+}
+.talentron-enrolled-text {
+  font-size: 12px;
+}
+.talentron-description {
+  width: 45%;
+}
+.talentron-description-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.talentron-description-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.talentron-skills {
+  display: flex;
+  justify-content: space-between;
+}
+.talentron-left-skills ul,
+.talentron-right-skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+.talentron-left-skills li,
+.talentron-right-skills li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.talentron-tick-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.box666{
+  width: 100%;
+  max-width: 1366px;
+  background-color: #333333;
+  height: auto;
+  min-height: 260px;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 31px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  padding: 63px 83px;
+}
+.small-box666{
+  width: 215px;
+  height: 134px;
+  background-color:#F6FBFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.small-box666 span{
+  font-size: 14px;
+  font-weight: 500;
+}
+.dddx{
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+}
+.dddx-text{
+  text-align: center;
+  margin-top: 40px;
+}
+.threebox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 27px;
+}
+.threebox-min{
+  width: 380px;
+  height: 230px;
+  border: 1px solid #00000026;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.threebox-min img{
+  width: 40px;
+  height: 40px;
+  margin-top: 31px;
+  margin-left:24px;
+}
+.wrapperxx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; 
+  height: auto;
+  background-color: #EBF0F5;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-left: 43px;
+  padding-right: 44px;
+}
+.containerxx {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eef3f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.containexxr span {
+  font-size: 24px;
+  text-align: center;
+  flex-grow: 1; 
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 42px;
+}
+.iconxx1 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 44px;
+  bottom: 17px;
+}
+.iconxx2{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  right: 30px;
+  bottom: 17px;
+}
+.accc{
+  width: 100%;
+  height: 740px;
+  background-color: #FFFFFF;
+  font-family: Montserrat;
+}
+.accc-text{
+  text-align: center;
+}
+.accc-text span{
+  font-size: 24px;
+  font-weight: 700;
+}
+.accc-text p{
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0;
+}
+@media (max-width: 1200px) {
+  .pro-sponsors-main {
+      max-width: 100%;     
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin:10px;
+  }
+  .talentron-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .joining-badge{
+    width: 60px;
+    height: 60px;
+  }
+  .joining-badge img{
+    width: 30px;
+    height: 30px;
+  }
+  .in-sponsors img {
+      width: 100px;
+  }
+  .talentron-skills {
+   
+    overflow: hidden;
+}
+}
+@media (max-width:1000px) {
+  .iconxx1 img{
+    display: none;
+  }
+  .iconxx2 img{
+    display: none;
+  }
+ .containexxr .span .p{
+  display: none;
+ }
+}
+@media (min-width: 1367px){
+ .wrapperxx{
+    margin: 30px auto;
+  }
+}
+@media (max-width:750px){
+ .upper-text11{
+      left: 20%;
+  }
+}
+@media (max-width:515px){
+ .upper-text11{
+      left: 10%;
+  }
+}
+@media (max-width:462px){
+.call-text-11{
+  font-size:10px !important;
+}
+  .upper-text11{
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 8px;
+      width: auto;
+  }
+  .call-text-21{
+      font-size: 3px;
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden !important;
+      display: none;
+  }
+}
