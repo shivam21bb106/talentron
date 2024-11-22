@@ -64,7 +64,7 @@ const Slider = () => {
                 <>
                   Lorem ipsum, or lipsum as it is sometimes known,is dummy text used in laying out print, graphic or web designs.
                   <br />
-                  This should be in the next line.
+                  
                 </>
               ) : (
                 text.content
